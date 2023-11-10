@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="monster04" class="asia.lhweb.springboot.bean.Monster">
+        <property name="name" value="狐狸精~"/>
+        <property name="age" value="9000"/>
+        <property name="skill" value="美人计~"/>
+        <property name="id" value="2000"/>
+    </bean>
+</beans>
